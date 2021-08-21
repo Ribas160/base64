@@ -72,4 +72,14 @@ export default {
         font-size: 4.6rem;
         border-radius: 10rem;
     }
+
+    @media (orientation: landscape) and (max-height: 670px) {
+        h1, .logo, p {
+            display: none;
+        }
+
+        .button {
+            margin-top: 0;
+        }
+    }
 </style>
