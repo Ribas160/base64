@@ -23,11 +23,7 @@ export default {
     },
     methods: {
         filesUpload() {
-            let formData = new FormData();
-    
-            let images = this.$refs.file.files;
-            for (const key in images) formData.append(key, images[key]);
-            this.$emit('filesUpload', formData);
+            this.$emit('filesUpload', this.$refs.file.files);
         },
         inputTrigger() {
             document.querySelector('input').click();

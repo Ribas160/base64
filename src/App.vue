@@ -43,9 +43,9 @@
         padding: 0 15px;
     }
 
-    @media (max-width: 580px) {
+    @media (max-width: 822px) {
         :root {
-            font-size: 1.72vw;
+            font-size: 1.1vw;
         }
     }
 </style>

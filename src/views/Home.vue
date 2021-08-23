@@ -20,10 +20,10 @@ export default {
         Button,
     },
     methods: {
-        goToMain(formData) {
+        goToMain(files) {
             this.$router.push({ 
                 name: 'Main', 
-                params: { formData: formData },
+                params: { files: files },
             });
         },
     },
@@ -74,12 +74,77 @@ export default {
     }
 
     @media (orientation: landscape) and (max-height: 670px) {
-        h1, .logo, p {
-            display: none;
+       .logo {
+           width: calc(28rem / 2);
+       }
+
+       h1 {
+           margin-top: calc(5.6rem / 2);
+           font-size: calc(5.6rem / 2);
+       }
+
+        p {
+            max-width: calc(60rem / 2);
+            margin-top: calc(2.4rem / 2);
+            font-size: calc(2.8rem / 2);
         }
 
         .button {
-            margin-top: 0;
+            width: calc(36rem / 2);
+            height: calc(10rem / 2);
+            margin-top: calc(5.6rem / 2);
+            font-size: calc(4.6rem / 2);
+            border-radius: calc(10rem / 2);
+        }
+    }
+
+    @media (orientation: landscape) and (max-height: 340px) {
+        .logo {
+           width: calc(28rem / 3);
+       }
+
+       h1 {
+           margin-top: calc(5.6rem / 3);
+           font-size: calc(5.6rem / 3);
+       }
+
+        p {
+            max-width: calc(60rem / 3);
+            margin-top: calc(2.4rem / 3);
+            font-size: calc(2.8rem / 3);
+        }
+
+        .button {
+            width: calc(36rem / 3);
+            height: calc(10rem / 3);
+            margin-top: calc(5.6rem / 3);
+            font-size: calc(4.6rem / 3);
+            border-radius: calc(10rem / 3);
+        }
+    }
+
+    @media (orientation: landscape) and (max-height: 230px) {
+        .logo {
+           width: calc(28rem / 4);
+       }
+
+       h1 {
+           margin-top: calc(5.6rem / 4);
+           font-size: calc(5.6rem / 4);
+       }
+
+        p {
+            max-width: calc(60rem / 4);
+            margin-top: calc(2.4rem / 4);
+            font-size: calc(2.8rem / 4);
+        }
+
+        .button {
+            width: calc(36rem / 4);
+            height: calc(10rem / 4);
+            margin-top: calc(5.6rem / 4);
+            font-size: calc(4.6rem / 4);
+            border-radius: calc(10rem / 4);
         }
     }
 </style>

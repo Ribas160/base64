@@ -1,19 +1,17 @@
 <template>
     <ul>
         <li 
-        v-for="image in images" 
-        :key="image.id" 
+        v-for="(image, index) in images" 
+        :key="index" 
         v-clipboard="image.base64" 
         v-on:success="success"
         v-on:click="copied"
         :class="{error: image.error}"
         >
             <button>
-                <!-- <div class="img"><img :src="image.base64"></div> -->
                 <div class="img" v-bind:style="{backgroundImage: 'url(' + image.base64 + ')'}"></div>
-                <p class="name">{{ image.name }}</p>
-                <p class="size" v-if="!image.error">{{ image.size }}</p>
-                <p class="size" v-if="image.error">{{ image.error }}</p>
+                <p class="name">{{ shortName(image.name) }}</p>
+                <p class="size">{{ (image.error) ? image.error : getFileSize(image.size) }}</p>
                 <p class="message">Copied</p>
             </button>
         </li>
@@ -43,6 +41,20 @@ export default {
                 pSize.style.display = 'block';
                 message.style.display = 'none';
             }, 2000);
+        },
+        getFileSize(bytes) {
+            const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
+            if (bytes == 0) return '0 Byte';
+            let i = parseInt(Math.floor(Math.log(bytes) / Math.log(1024)));
+            let num = bytes / Math.pow(1024, i);
+            return num.toFixed(2) + ' ' + sizes[i];
+        },
+        shortName(file) {
+            let name = file.split('.').slice(0, -1).join('.');
+            let ext = file.replace(name, '');
+
+            if (name.length > 5) return name.substr(0, 5) + ' ' + ext;
+            else return name + ' ' + ext;
         }
     }
 }

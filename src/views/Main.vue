@@ -32,14 +32,29 @@
             }
         },
         methods: {
-            encode(formData) {
-                if (this.$route.params.formData) formData = this.$route.params.formData;
+            async encode(files) {
+                if (this.$route.params.files) files = this.$route.params.files;
 
-                if (formData) {
-                    api.encode(formData)
-                        .then(res => this.images = this.images.concat(res.data))
-                        .catch(err => console.log(err));
-                    formData = {};
+                if (files) {
+                    for (const key in files) {
+                        if (key === 'length' || key === 'item') continue;
+
+                        if (files[key]['size'] > 1048576) {
+                            this.images.push({
+                                name: files[key]['name'],
+                                size: files[key]['size'],
+                                base64: '',
+                                error: 'File is too big. Max. 1 MB per file.',
+                            });
+                        } else {
+                            let formData = new FormData();
+                            formData.append(key, files[key]);
+                            await api.encode(formData)
+                                .then(res => this.images = this.images.concat(res.data))
+                                .catch(err => console.log(err));
+                        }
+                    }
+                    files = {};
                 }
             },
             onFocus(e) {
@@ -47,7 +62,7 @@
             },
             onBlur(e) {
                 e.target.querySelector('.logo').classList.remove('onFocus');
-            }
+            },
         },
         mounted() {
             this.encode();
