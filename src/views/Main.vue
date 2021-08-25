@@ -7,7 +7,7 @@
                 v-on:focus.native="onFocus"
                 v-on:blur.native="onBlur"
                 >
-                    <img class="logo" src="../assets/logo.svg" alt="Base64 logo">
+                <Logo class="logo" />
                 </router-link>
             </div>
         </header>
@@ -21,11 +21,12 @@
 </template>
 <script>
     import api from '../api/FileUploading';
+    import Logo from '../assets/logo.svg';
     import Button from '../components/Button.vue';
     import List from '../components/List.vue';
 
     export default {
-        components: { Button, List },
+        components: { Logo, Button, List},
         data() {
             return {
                 images: [],
@@ -33,7 +34,7 @@
         },
         methods: {
             async encode(files) {
-                if (this.$route.params.files) files = this.$route.params.files;
+                if (!files && this.$route.params.files) files = this.$route.params.files;
 
                 if (files) {
                     for (const key in files) {
@@ -73,6 +74,19 @@
     .logo {
         width: 6rem;
         margin-top: 2rem;
+    }
+
+    .logo:hover {
+      cursor: pointer;
+    }
+
+    .logo:hover path:nth-of-type(2),
+    .logo:hover path:nth-of-type(3) {
+      fill: #57942B;
+    }
+
+    .logo:hover path:last-of-type {
+      fill: #266293;
     }
 
     .onFocus {

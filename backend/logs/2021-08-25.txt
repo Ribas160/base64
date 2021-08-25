@@ -1,0 +1,754 @@
+2021-08-25 12:22:11 Array
+(
+    [0] => Array
+        (
+            [name] => 1627318731.310563.jpg
+            [type] => image/jpeg
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpJGTfb0
+            [error] => 0
+            [size] => 198026
+        )
+
+)
+
+2021-08-25 12:22:11 Array
+(
+    [1] => Array
+        (
+            [name] => beeline_kiosk_5350002_2021-07-21.png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpcrI30k
+            [error] => 0
+            [size] => 147494
+        )
+
+)
+
+2021-08-25 12:22:11 Array
+(
+    [3] => Array
+        (
+            [name] => FullSizeRender-23-08-21-05-35-2.jpg
+            [type] => image/jpeg
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpnICh8g
+            [error] => 0
+            [size] => 868484
+        )
+
+)
+
+2021-08-25 12:22:11 Array
+(
+    [4] => Array
+        (
+            [name] => FullSizeRender-23-08-21-05-35-3.jpg
+            [type] => image/jpeg
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/php0bQQJm
+            [error] => 0
+            [size] => 702827
+        )
+
+)
+
+2021-08-25 12:22:11 Array
+(
+    [5] => Array
+        (
+            [name] => FullSizeRender-23-08-21-05-35-4.jpg
+            [type] => image/jpeg
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phps1C2DT
+            [error] => 0
+            [size] => 749500
+        )
+
+)
+
+2021-08-25 12:22:11 Array
+(
+    [6] => Array
+        (
+            [name] => FullSizeRender-23-08-21-05-35-5.jpg
+            [type] => image/jpeg
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpOqXdgt
+            [error] => 0
+            [size] => 681837
+        )
+
+)
+
+2021-08-25 12:22:11 Array
+(
+    [7] => Array
+        (
+            [name] => FullSizeRender-23-08-21-05-35.jpg
+            [type] => image/jpeg
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpopyoZx
+            [error] => 0
+            [size] => 659293
+        )
+
+)
+
+2021-08-25 12:22:11 Array
+(
+    [8] => Array
+        (
+            [name] => go.pb-top.com_return_domain=keas3.pb-top.com&init_id=in0.2417104462&payed=K7Ka0chJyER1wN-2FioZoFimv73ByHtIHa58wDn7tohyA-3D&country=ke&operator=africom&status=success&service_id=16107&wb_subscription_id=8010032288&order_id=in0.2417104462&abo.png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpRsVlN6
+            [error] => 0
+            [size] => 734371
+        )
+
+)
+
+2021-08-25 12:22:11 Array
+(
+    [10] => Array
+        (
+            [name] => localhost_projects_7562_public_gudok_12360_2-1_(iPhone 5_SE) (1).png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpLfXxCW
+            [error] => 0
+            [size] => 530098
+        )
+
+)
+
+2021-08-25 12:22:11 Array
+(
+    [11] => Array
+        (
+            [name] => localhost_projects_7562_public_gudok_12360_2-1_(iPhone 5_SE) (2).png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/php1d4K7X
+            [error] => 0
+            [size] => 526572
+        )
+
+)
+
+2021-08-25 12:22:11 Array
+(
+    [12] => Array
+        (
+            [name] => localhost_projects_7562_public_gudok_12360_2-1_(iPhone 5_SE).png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpNHCkQK
+            [error] => 0
+            [size] => 530658
+        )
+
+)
+
+2021-08-25 12:22:11 Array
+(
+    [13] => Array
+        (
+            [name] => lp.games-universe.online_aeg_(iPhone 5_SE) (1).png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/php8JAerF
+            [error] => 0
+            [size] => 122116
+        )
+
+)
+
+2021-08-25 12:22:11 Array
+(
+    [14] => Array
+        (
+            [name] => lp.games-universe.online_aeg_(iPhone 5_SE).png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpHWsoXz
+            [error] => 0
+            [size] => 121899
+        )
+
+)
+
+2021-08-25 12:22:11 Array
+(
+    [15] => Array
+        (
+            [name] => photo_2021-08-23_18-52-16.jpg
+            [type] => image/jpeg
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpPHZykb
+            [error] => 0
+            [size] => 75753
+        )
+
+)
+
+2021-08-25 12:22:12 Array
+(
+    [16] => Array
+        (
+            [name] => test.stat-plus.com_index.php_requestId=76106&p=T8ToEKzS%2B0UbP9w3YFjeRri59WW9H9rmK%2BNXYfcuC3ablb24HCJeCRvKiMEFJk1HmkKbmX4HlGR%2FSG8jpPdfUQ%3D%3D(iPhone 5_SE).png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpcsexdg
+            [error] => 0
+            [size] => 609967
+        )
+
+)
+
+2021-08-25 13:59:34 Array
+(
+    [0] => Array
+        (
+            [name] => 18+.svg
+            [type] => image/svg+xml
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/php8UNn9n
+            [error] => 0
+            [size] => 1615
+        )
+
+)
+
+2021-08-25 13:59:35 Array
+(
+    [1] => Array
+        (
+            [name] => main.jpg
+            [type] => image/jpeg
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpkUAhE5
+            [error] => 0
+            [size] => 282626
+        )
+
+)
+
+2021-08-25 13:59:35 Array
+(
+    [2] => Array
+        (
+            [name] => pbmobilelogo.svg
+            [type] => image/svg+xml
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phptEm2Qk
+            [error] => 0
+            [size] => 5304
+        )
+
+)
+
+2021-08-25 13:59:35 Array
+(
+    [3] => Array
+        (
+            [name] => warning_bg.jpeg
+            [type] => image/jpeg
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/php5i8MVs
+            [error] => 0
+            [size] => 227307
+        )
+
+)
+
+2021-08-25 14:24:04 Array
+(
+    [0] => Array
+        (
+            [name] => 18+.svg
+            [type] => image/svg+xml
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpgt17G6
+            [error] => 0
+            [size] => 1615
+        )
+
+)
+
+2021-08-25 14:24:04 Array
+(
+    [1] => Array
+        (
+            [name] => main.jpg
+            [type] => image/jpeg
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpfmRYbq
+            [error] => 0
+            [size] => 282626
+        )
+
+)
+
+2021-08-25 14:24:04 Array
+(
+    [2] => Array
+        (
+            [name] => pbmobilelogo.svg
+            [type] => image/svg+xml
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpD5wh3p
+            [error] => 0
+            [size] => 5304
+        )
+
+)
+
+2021-08-25 14:24:04 Array
+(
+    [3] => Array
+        (
+            [name] => warning_bg.jpeg
+            [type] => image/jpeg
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpCCMPkB
+            [error] => 0
+            [size] => 227307
+        )
+
+)
+
+2021-08-25 14:24:49 Array
+(
+    [0] => Array
+        (
+            [name] => 18+.svg
+            [type] => image/svg+xml
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpOyutcs
+            [error] => 0
+            [size] => 1615
+        )
+
+)
+
+2021-08-25 14:24:49 Array
+(
+    [1] => Array
+        (
+            [name] => main.jpg
+            [type] => image/jpeg
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpVwWxAI
+            [error] => 0
+            [size] => 282626
+        )
+
+)
+
+2021-08-25 14:24:49 Array
+(
+    [2] => Array
+        (
+            [name] => pbmobilelogo.svg
+            [type] => image/svg+xml
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpHTiyfa
+            [error] => 0
+            [size] => 5304
+        )
+
+)
+
+2021-08-25 14:24:49 Array
+(
+    [3] => Array
+        (
+            [name] => warning_bg.jpeg
+            [type] => image/jpeg
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpEv4MvG
+            [error] => 0
+            [size] => 227307
+        )
+
+)
+
+2021-08-25 18:07:14 Array
+(
+    [0] => Array
+        (
+            [name] => localhost_projects_tmp_tele2-lands_games-universe_(iPhone 5_SE).png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpnh29t0
+            [error] => 0
+            [size] => 128573
+        )
+
+)
+
+2021-08-25 18:07:14 Array
+(
+    [1] => Array
+        (
+            [name] => localhost_projects_tmp_tele2-lands_tvclub_(iPhone 5_SE).png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phphes9ED
+            [error] => 0
+            [size] => 121038
+        )
+
+)
+
+2021-08-25 18:16:39 Array
+(
+    [0] => Array
+        (
+            [name] => localhost_projects_tmp_tele2-lands_games-universe_(iPhone 5_SE).png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpOA91eg
+            [error] => 0
+            [size] => 128573
+        )
+
+)
+
+2021-08-25 18:16:39 Array
+(
+    [1] => Array
+        (
+            [name] => localhost_projects_tmp_tele2-lands_tvclub_(iPhone 5_SE).png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpcxcrY6
+            [error] => 0
+            [size] => 121038
+        )
+
+)
+
+2021-08-25 18:24:08 Array
+(
+    [0] => Array
+        (
+            [name] => localhost_projects_tmp_tele2-lands_games-universe_(iPhone 5_SE).png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpFRMiM8
+            [error] => 0
+            [size] => 128573
+        )
+
+)
+
+2021-08-25 18:24:08 Array
+(
+    [1] => Array
+        (
+            [name] => localhost_projects_tmp_tele2-lands_tvclub_(iPhone 5_SE).png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpVFQjoQ
+            [error] => 0
+            [size] => 121038
+        )
+
+)
+
+2021-08-25 18:26:21 Array
+(
+    [0] => Array
+        (
+            [name] => localhost_projects_tmp_tele2-lands_games-universe_(iPhone 5_SE).png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpkZzBbq
+            [error] => 0
+            [size] => 128573
+        )
+
+)
+
+2021-08-25 18:26:21 Array
+(
+    [1] => Array
+        (
+            [name] => localhost_projects_tmp_tele2-lands_tvclub_(iPhone 5_SE).png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpJ8g6xv
+            [error] => 0
+            [size] => 121038
+        )
+
+)
+
+2021-08-25 18:28:20 Array
+(
+    [0] => Array
+        (
+            [name] => localhost_projects_tmp_tele2-lands_games-universe_(iPhone 5_SE).png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpVKESvl
+            [error] => 0
+            [size] => 128573
+        )
+
+)
+
+2021-08-25 18:28:20 Array
+(
+    [1] => Array
+        (
+            [name] => localhost_projects_tmp_tele2-lands_tvclub_(iPhone 5_SE).png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpRTpCDn
+            [error] => 0
+            [size] => 121038
+        )
+
+)
+
+2021-08-25 18:32:56 Array
+(
+    [0] => Array
+        (
+            [name] => localhost_projects_tmp_tele2-lands_games-universe_(iPhone 5_SE).png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phptjzy5Z
+            [error] => 0
+            [size] => 128573
+        )
+
+)
+
+2021-08-25 18:32:56 Array
+(
+    [1] => Array
+        (
+            [name] => localhost_projects_tmp_tele2-lands_tvclub_(iPhone 5_SE).png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpv2RT5B
+            [error] => 0
+            [size] => 121038
+        )
+
+)
+
+2021-08-25 18:36:37 Array
+(
+    [0] => Array
+        (
+            [name] => localhost_projects_tmp_tele2-lands_games-universe_(iPhone 5_SE).png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpPbhJEZ
+            [error] => 0
+            [size] => 128573
+        )
+
+)
+
+2021-08-25 18:36:37 Array
+(
+    [1] => Array
+        (
+            [name] => localhost_projects_tmp_tele2-lands_tvclub_(iPhone 5_SE).png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpAvXljj
+            [error] => 0
+            [size] => 121038
+        )
+
+)
+
+2021-08-25 18:36:43 Array
+(
+    [0] => Array
+        (
+            [name] => localhost_projects_tmp_tele2-lands_games-universe_(iPhone 5_SE).png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpJ5I5lq
+            [error] => 0
+            [size] => 128573
+        )
+
+)
+
+2021-08-25 18:36:43 Array
+(
+    [1] => Array
+        (
+            [name] => localhost_projects_tmp_tele2-lands_tvclub_(iPhone 5_SE).png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpv1VGji
+            [error] => 0
+            [size] => 121038
+        )
+
+)
+
+2021-08-25 18:36:48 Array
+(
+    [0] => Array
+        (
+            [name] => localhost_projects_tmp_tele2-lands_games-universe_(iPhone 5_SE).png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpuCGuNu
+            [error] => 0
+            [size] => 128573
+        )
+
+)
+
+2021-08-25 18:36:48 Array
+(
+    [1] => Array
+        (
+            [name] => localhost_projects_tmp_tele2-lands_tvclub_(iPhone 5_SE).png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpufgnbo
+            [error] => 0
+            [size] => 121038
+        )
+
+)
+
+2021-08-25 18:36:55 Array
+(
+    [0] => Array
+        (
+            [name] => localhost_projects_tmp_tele2-lands_games-universe_(iPhone 5_SE).png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpWLWVfy
+            [error] => 0
+            [size] => 128573
+        )
+
+)
+
+2021-08-25 18:36:55 Array
+(
+    [1] => Array
+        (
+            [name] => localhost_projects_tmp_tele2-lands_tvclub_(iPhone 5_SE).png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpyLJsn1
+            [error] => 0
+            [size] => 121038
+        )
+
+)
+
+2021-08-25 18:37:37 Array
+(
+    [0] => Array
+        (
+            [name] => localhost_projects_tmp_tele2-lands_games-universe_(iPhone 5_SE).png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/php2yA2iF
+            [error] => 0
+            [size] => 128573
+        )
+
+)
+
+2021-08-25 18:37:37 Array
+(
+    [1] => Array
+        (
+            [name] => localhost_projects_tmp_tele2-lands_tvclub_(iPhone 5_SE).png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpzQStH8
+            [error] => 0
+            [size] => 121038
+        )
+
+)
+
+2021-08-25 18:37:41 Array
+(
+    [0] => Array
+        (
+            [name] => logo.svg
+            [type] => image/svg+xml
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpay6Kyq
+            [error] => 0
+            [size] => 18035
+        )
+
+)
+
+2021-08-25 18:37:47 Array
+(
+    [0] => Array
+        (
+            [name] => localhost_projects_tmp_tele2-lands_tvclub_(iPhone 5_SE).png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpqpCU7p
+            [error] => 0
+            [size] => 121038
+        )
+
+)
+
+2021-08-25 18:37:51 Array
+(
+    [0] => Array
+        (
+            [name] => localhost_projects_tmp_tele2-lands_games-universe_(iPhone 5_SE).png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/php1Z0clm
+            [error] => 0
+            [size] => 128573
+        )
+
+)
+
+2021-08-25 18:37:56 Array
+(
+    [0] => Array
+        (
+            [name] => localhost_projects_tmp_tele2-lands_games-universe_(iPhone 5_SE).png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpirAKub
+            [error] => 0
+            [size] => 128573
+        )
+
+)
+
+2021-08-25 18:37:56 Array
+(
+    [1] => Array
+        (
+            [name] => localhost_projects_tmp_tele2-lands_tvclub_(iPhone 5_SE).png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpb04LL6
+            [error] => 0
+            [size] => 121038
+        )
+
+)
+
+2021-08-25 18:38:01 Array
+(
+    [0] => Array
+        (
+            [name] => logo.svg
+            [type] => image/svg+xml
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpupdgqM
+            [error] => 0
+            [size] => 18035
+        )
+
+)
+
+2021-08-25 18:40:03 Array
+(
+    [0] => Array
+        (
+            [name] => localhost_projects_tmp_tele2-lands_games-universe_(iPhone 5_SE).png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phppBuyW7
+            [error] => 0
+            [size] => 128573
+        )
+
+)
+
+2021-08-25 18:40:03 Array
+(
+    [1] => Array
+        (
+            [name] => localhost_projects_tmp_tele2-lands_tvclub_(iPhone 5_SE).png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpBYwsN6
+            [error] => 0
+            [size] => 121038
+        )
+
+)
+
+2021-08-25 18:40:07 Array
+(
+    [0] => Array
+        (
+            [name] => logo.svg
+            [type] => image/svg+xml
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/php89r95y
+            [error] => 0
+            [size] => 18035
+        )
+
+)
+

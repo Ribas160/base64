@@ -122,8 +122,10 @@ export default {
     }
 
     li .size {
+        min-width: 9rem;
         margin: 0 auto;
         color: #D19A66;
+        text-align: left;
     }
 
     .message {

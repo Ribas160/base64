@@ -1,7 +1,7 @@
 <template>
     <div class="home">
         <div class="container">
-            <img class="logo" src="../assets/logo.svg" alt="Base64 logo">
+            <Logo class="logo" />
             <h1>Convert your <span>Images</span> to <span>Base64</span></h1>
             <p>
                 You can upload up to 20 images as JPG, PNG, GIF, WebP, SVG or BMP.
@@ -12,13 +12,12 @@
 </template>
 
 <script>
+import Logo from '../assets/logo.svg';
 import Button from '../components/Button.vue';
 
 export default {
     name: 'Home',
-    components: {
-        Button,
-    },
+    components: { Logo, Button },
     methods: {
         goToMain(files) {
             this.$router.push({ 
