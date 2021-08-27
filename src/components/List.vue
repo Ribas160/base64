@@ -11,7 +11,7 @@
             <button>
                 <div class="img" v-bind:style="{backgroundImage: 'url(' + image.base64 + ')'}"></div>
                 <p class="name">{{ shortName(image.name) }}</p>
-                <p class="size">{{ (image.error) ? image.error : getFileSize(image.size) }}</p>
+                <p class="text">{{ (image.error) ? image.error : getFileSize(image.size) }}</p>
                 <p class="message">Copied</p>
             </button>
         </li>
@@ -30,7 +30,7 @@ export default {
             this.target = e.target;
         },
         success() {
-            let pSize = this.target.querySelector('.size');
+            let pSize = this.target.querySelector('.text');
             let message = this.target.querySelector('.message');
 
             this.target.classList.add('copied');
@@ -121,7 +121,7 @@ export default {
         width: 10rem;
     }
 
-    li .size {
+    li .text {
         min-width: 9rem;
         margin: 0 auto;
         color: #D19A66;
@@ -138,8 +138,12 @@ export default {
         background-color: #96C077;
     }
 
-    .error {
+    .error button {
         background: #E06C75;
         pointer-events: none;
+    }
+
+    .error .text {
+        color: #87000A;
     }
 </style>

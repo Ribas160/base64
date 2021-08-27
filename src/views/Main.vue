@@ -40,12 +40,12 @@
                     for (const key in files) {
                         if (key === 'length' || key === 'item') continue;
 
-                        if (files[key]['size'] > 1048576) {
+                        if (files[key]['size'] > (1048576 * 20)) {
                             this.images.push({
                                 name: files[key]['name'],
                                 size: files[key]['size'],
                                 base64: '',
-                                error: 'File is too big. Max. 1 MB per file.',
+                                error: 'File is too big. Max. 20 MB per file.',
                             });
                         } else {
                             let formData = new FormData();

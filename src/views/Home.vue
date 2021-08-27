@@ -4,7 +4,7 @@
             <Logo class="logo" />
             <h1>Convert your <span>Images</span> to <span>Base64</span></h1>
             <p>
-                You can upload up to 20 images as JPG, PNG, GIF, WebP, SVG or BMP.
+                You can upload images as JPG, PNG, GIF, WebP, SVG or BMP.
             </p>
             <Button class="button" text="Start" v-on:filesUpload="goToMain" />
         </div>
