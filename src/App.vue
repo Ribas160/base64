@@ -8,7 +8,7 @@
     :root {
         --theme-color: #282C34;
 
-        font-size: 10px;
+        font-size: 0.5208333333vw;
     }
 
     * {
@@ -38,14 +38,14 @@
     }
 
     .container {
-        max-width: 70rem;
+        max-width: 118rem;
         margin: 0 auto;
         padding: 0 15px;
     }
 
     @media (max-width: 822px) {
         :root {
-            font-size: 1.1vw;
+            font-size: 0.8vw;
         }
     }
 </style>

@@ -14,7 +14,7 @@
         <main>
             <div class="container">
                 <List v-if="images" v-bind:images="this.images" />
-                <Button text="Add files" v-on:filesUpload="encode" />
+                <Button class="button" text="Add files" v-on:filesUpload="encode" />
             </div>
         </main>
     </div>
@@ -40,12 +40,12 @@
                     for (const key in files) {
                         if (key === 'length' || key === 'item') continue;
 
-                        if (files[key]['size'] > (1048576 * 20)) {
+                        if (files[key]['size'] > (1048576 * 2)) {
                             this.images.push({
                                 name: files[key]['name'],
                                 size: files[key]['size'],
                                 base64: '',
-                                error: 'File is too big. Max. 20 MB per file.',
+                                error: 'File is too big. Max. 2 MB per file.',
                             });
                         } else {
                             let formData = new FormData();
@@ -72,8 +72,8 @@
 </script>
 <style scoped>
     .logo {
-        width: 6rem;
-        margin-top: 2rem;
+        width: 8rem;
+        margin-top: 3.2rem;
     }
 
     .logo:hover {
@@ -82,7 +82,7 @@
 
     .logo:hover path:nth-of-type(2),
     .logo:hover path:nth-of-type(3) {
-      fill: #57942B;
+      fill: #72925A;
     }
 
     .logo:hover path:last-of-type {
@@ -94,6 +94,14 @@
     }
 
     main {
-        margin: 5rem 0;
+        margin: 6.4rem 0;
+    }
+
+    .button {
+        width: 24rem;
+        height: 6rem;
+        margin: 3.2rem auto 0;
+        font-size: 2.8rem;
+        border-radius: 10rem;
     }
 </style>

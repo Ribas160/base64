@@ -53,22 +53,27 @@ export default {
             let name = file.split('.').slice(0, -1).join('.');
             let ext = file.replace(name, '');
 
-            if (name.length > 5) return name.substr(0, 5) + ' ' + ext;
-            else return name + ' ' + ext;
+            if (name.length > 5) return name.substr(0, 5) + '... ' + ext;
+            else return name + '.' + ext;
         }
     }
 }
 </script>
 <style scoped>
     ul {
-        max-width: 58rem;
+        max-width: 82rem;
         margin: 0 auto;
     }
 
     li {
+        height: 7.2rem;
         margin-top: 0.2rem;
-        border-radius: 0.5rem;
+        border-radius: 1rem;
         list-style-type: none;
+    }
+
+    li:first-of-type {
+        margin-top: 0;
     }
 
     button {
@@ -99,9 +104,9 @@ export default {
     }
 
     li .img {
-        width: 3rem;
-        height: 3rem;
-        margin-right: 1rem;
+        width: 5.2rem;
+        height: 5.2rem;
+        margin-right: 1.2rem;
         background-size: cover;
         background-position: center top;
     }
@@ -112,23 +117,24 @@ export default {
     }
 
     li p {
-        font-size: 1.6rem;
+        font-size: 2.8rem;
         transition: all 0.5s ease;
         pointer-events: none;
     }
 
     .name {
-        width: 10rem;
-    }
-
-    li .text {
-        min-width: 9rem;
-        margin: 0 auto;
-        color: #D19A66;
+        width: 20rem;
         text-align: left;
     }
 
+    li .text {
+        min-width: 18rem;
+        margin: 0 auto;
+        color: #D19A66;
+    }
+
     .message {
+        min-width: 18rem;
         margin: 0 auto;
         display: none;
         color: #93DD5D;
@@ -144,6 +150,6 @@ export default {
     }
 
     .error .text {
-        color: #87000A;
+        color: #9C1721;
     }
 </style>
