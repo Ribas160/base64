@@ -2,29 +2,35 @@
     <div class="home">
         <div class="container">
             <Logo class="logo" />
-            <h1>Convert your <span>Images</span> to <span>Base64</span></h1>
+            <h1>Convert your <span>Images</span> to <span>Base64</span> and back</h1>
             <p>
-                You can upload images as JPG, PNG, GIF, WebP, SVG or BMP.
+                You can upload images as JPG, PNG, GIF, WebP, SVG or BMP and decode your Base64 images.
             </p>
-            <Button class="button" text="Start" v-on:filesUpload="goToMain" />
-        </div>
+			<div class="buttons">
+				<Button class="button" text="Encode" v-on:filesUpload="goToEncode" />
+				<Button class="button" text="Decode" v-bind:activeInput="false" v-on:click="goToDecode" />
+			</div>
+		</div>
     </div>
 </template>
 
 <script>
-import Logo from '../assets/logo.svg';
+import Logo from '../assets/img/logo.svg';
 import Button from '../components/Button.vue';
 
 export default {
     name: 'Home',
     components: { Logo, Button },
     methods: {
-        goToMain(files) {
+        goToEncode(files) {
             this.$router.push({ 
-                name: 'Main', 
+                name: 'Encode', 
                 params: { files: files },
             });
         },
+		goToDecode() {
+			this.$router.push({ name: "Decode" })
+		}
     },
 }
 </script>
@@ -43,9 +49,15 @@ export default {
     }
 
     .logo {
-        width: 28rem;
+        width: calc(28rem / var(--home-var));
         margin: 0 auto;
         display: block;
+    }
+
+    h1 {
+        margin: calc(5.6rem / var(--home-var)) 0 0;
+        font-size: calc(5.6rem / var(--home-var));
+        text-align: center;
     }
 
     h1 span:first-of-type {
@@ -57,93 +69,48 @@ export default {
     }
 
     p {
-        max-width: 60rem;
-        margin: 2.4rem auto 0;
+        max-width: calc(69rem / var(--home-var));
+        margin: calc(2.4rem / var(--home-var)) auto 0;
         font-family: 'Open Sans', sans-serif;
-        font-size: 2.8rem;
+        font-size: calc(2.8rem / var(--home-var));
         text-align: center;
     }
 
+	.buttons {
+		margin-top: calc(5.6rem / var(--home-var));
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
     .button {
-        width: 36rem;
-        height: 10rem;
-        margin: 5.6rem auto 0;
-        font-size: 4.6rem;
-        border-radius: 10rem;
+        width: calc(34rem / var(--home-var));
+        height: calc(10rem / var(--home-var));
+		margin: 0;
+        font-size: calc(4.8rem / var(--home-var));
+        border-radius: calc(10rem / var(--home-var));
     }
 
-    @media (orientation: landscape) and (max-height: 670px) {
-       .logo {
-           width: calc(28rem / 2);
-       }
-
-       h1 {
-           margin-top: calc(5.6rem / 2);
-           font-size: calc(5.6rem / 2);
-       }
-
-        p {
-            max-width: calc(60rem / 2);
-            margin-top: calc(2.4rem / 2);
-            font-size: calc(2.8rem / 2);
-        }
-
-        .button {
-            width: calc(36rem / 2);
-            height: calc(10rem / 2);
-            margin-top: calc(5.6rem / 2);
-            font-size: calc(4.6rem / 2);
-            border-radius: calc(10rem / 2);
+	.button:first-of-type {
+		margin-right: calc(10rem / var(--home-var));
+	}
+</style>
+<style>
+    @media (orientation: landscape) and (max-height: 600px) {
+        :root {
+            --home-var: 1.2;
         }
     }
 
-    @media (orientation: landscape) and (max-height: 340px) {
-        .logo {
-           width: calc(28rem / 3);
-       }
-
-       h1 {
-           margin-top: calc(5.6rem / 3);
-           font-size: calc(5.6rem / 3);
-       }
-
-        p {
-            max-width: calc(60rem / 3);
-            margin-top: calc(2.4rem / 3);
-            font-size: calc(2.8rem / 3);
-        }
-
-        .button {
-            width: calc(36rem / 3);
-            height: calc(10rem / 3);
-            margin-top: calc(5.6rem / 3);
-            font-size: calc(4.6rem / 3);
-            border-radius: calc(10rem / 3);
+    @media (orientation: landscape) and (max-height: 450px) {
+        :root {
+            --home-var: 1.5;
         }
     }
 
-    @media (orientation: landscape) and (max-height: 230px) {
-        .logo {
-           width: calc(28rem / 4);
-       }
-
-       h1 {
-           margin-top: calc(5.6rem / 4);
-           font-size: calc(5.6rem / 4);
-       }
-
-        p {
-            max-width: calc(60rem / 4);
-            margin-top: calc(2.4rem / 4);
-            font-size: calc(2.8rem / 4);
-        }
-
-        .button {
-            width: calc(36rem / 4);
-            height: calc(10rem / 4);
-            margin-top: calc(5.6rem / 4);
-            font-size: calc(4.6rem / 4);
-            border-radius: calc(10rem / 4);
+    @media(orientation: landscape) and (max-height: 350px) {
+        :root {
+            --home-var: 2;
         }
     }
 </style>

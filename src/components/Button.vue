@@ -8,6 +8,10 @@
 
 export default {
     props: {
+		activeInput: {
+			type: Boolean,
+			default: true,
+		},
         text: {
             type: String,
             required: true,
@@ -25,8 +29,10 @@ export default {
         filesUpload() {
             this.$emit('filesUpload', this.$refs.file.files);
         },
-        inputTrigger() {
-            document.querySelector('input').click();
+        inputTrigger(e) {
+			if (this.activeInput) document.querySelector('input').click();
+			else this.$emit('click', this);
+            e.target.blur();
         }
     }
 }

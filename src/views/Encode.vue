@@ -1,35 +1,37 @@
 <template>
-    <div class="main">
-        <header>
-            <div class="container">
-                <router-link 
-                :to="{ name: 'Home' }" 
-                v-on:focus.native="onFocus"
-                v-on:blur.native="onBlur"
-                >
-                <Logo class="logo" />
-                </router-link>
-            </div>
-        </header>
+    <div class="encode">
+        <Header />
         <main>
             <div class="container">
-                <List v-if="images" v-bind:images="this.images" />
+				<ul v-if="images">
+					<li 
+					v-for="(image, index) in images" 
+					:key="index" 
+					v-clipboard="image.base64"
+					v-on:success="success" 
+					v-on:click="copied"
+					>
+						<ListItem v-bind:image="image" actionText="Copied" />
+					</li>
+				</ul>
                 <Button class="button" text="Add files" v-on:filesUpload="encode" />
             </div>
         </main>
     </div>
 </template>
 <script>
+	import Header from '../components/Header.vue';
     import api from '../api/FileUploading';
-    import Logo from '../assets/logo.svg';
     import Button from '../components/Button.vue';
-    import List from '../components/List.vue';
+    import ListItem from '../components/ListItem/ListItem.vue';
+	import listItemAction from '../components/ListItem/action';
 
     export default {
-        components: { Logo, Button, List},
+        components: { Header, Button, ListItem },
         data() {
             return {
                 images: [],
+				e: {},
             }
         },
         methods: {
@@ -58,49 +60,39 @@
                     files = {};
                 }
             },
-            onFocus(e) {
-                e.target.querySelector('.logo').classList.add('onFocus');
-            },
-            onBlur(e) {
-                e.target.querySelector('.logo').classList.remove('onFocus');
-            },
-        },
+			copied(e) {
+				this.e = e;
+			},
+			success() {
+				listItemAction.action(this.e)
+			},
+		},
         mounted() {
             this.encode();
         }
     }
 </script>
 <style scoped>
-    .logo {
-        width: 8rem;
-        margin-top: 3.2rem;
+	ul {
+        max-width: 82rem;
+        margin: 0 auto;
     }
 
-    .logo:hover {
-      cursor: pointer;
+    li {
+        height: 7.2rem;
+        margin-top: 0.2rem;
+        border-radius: 1rem;
+        list-style-type: none;
     }
 
-    .logo:hover path:nth-of-type(2),
-    .logo:hover path:nth-of-type(3) {
-      fill: #72925A;
-    }
-
-    .logo:hover path:last-of-type {
-      fill: #266293;
-    }
-
-    .onFocus {
-        opacity: 0.7;
-    }
-
-    main {
-        margin: 6.4rem 0;
+    li:first-of-type {
+        margin-top: 0;
     }
 
     .button {
         width: 24rem;
         height: 6rem;
-        margin: 3.2rem auto 0;
+        margin: 3.2rem auto 6.4rem;
         font-size: 2.8rem;
         border-radius: 10rem;
     }

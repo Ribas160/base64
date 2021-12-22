@@ -3,10 +3,42 @@
         <router-view />
     </div>
 </template>
-
 <style>
+    @font-face {
+        font-family: 'Open Sans';
+        src: url('~@/assets/fonts/OpenSans-Regular.ttf') format('truetype'),
+             url('~@/assets/fonts/OpenSans-Regular.woff') format('woff'),
+             url('~@/assets/fonts/OpenSans-Regular.woff2') format('woff2');
+        font-weight: 400;
+    }
+
+    @font-face {
+        font-family: 'Roboto';
+        src: url('~@/assets/fonts/Roboto-Regular.ttf') format('truetype'),
+             url('~@/assets/fonts/Roboto-Regular.woff') format('woff'),
+             url('~@/assets/fonts/Roboto-Regular.woff2') format('woff2');
+        font-weight: 400;
+    }
+
+    @font-face {
+        font-family: 'Roboto';
+        src: url('~@/assets/fonts/Roboto-Medium.ttf') format('truetype'),
+             url('~@/assets/fonts/Roboto-Medium.woff') format('woff'),
+             url('~@/assets/fonts/Roboto-Medium.woff2') format('woff2');
+        font-weight: 500;
+    }
+
+    @font-face {
+        font-family: 'Roboto';
+        src: url('~@/assets/fonts/Roboto-Bold.ttf') format('truetype'),
+             url('~@/assets/fonts/Roboto-Bold.woff') format('woff'),
+             url('~@/assets/fonts/Roboto-Bold.woff2') format('woff2');
+        font-weight: 700;
+    }
+
     :root {
         --theme-color: #282C34;
+        --home-var: 1;
 
         font-size: 0.5208333333vw;
     }
@@ -22,6 +54,7 @@
         font-family: 'Roboto', sans-serif;
         color: #fff;
         background-color: var(--theme-color);
+        -webkit-text-size-adjust: 100%;
     }
 
     h1 {

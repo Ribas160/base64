@@ -1,7 +1,5 @@
 <?php
 
-// require_once 'log.php';
-
 header('Access-Control-Allow-Origin: *');
 
 
@@ -45,5 +43,5 @@ function imgToBase64(array $image): string
     else return "data:{$imageSize['mime']};base64,{$imageData}";
 }
 
-// logs(print_r($_FILES, true));
-echo convert($_FILES);
+
+if (!empty($_FILES)) echo convert($_FILES);
