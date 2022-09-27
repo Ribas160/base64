@@ -1,6 +1,7 @@
 <template>
 	<button 
 		v-bind:class="{error: image.error}"
+        :title="image.name"
 		>
 		<div class="img" v-bind:style="{backgroundImage: 'url(' + image.base64 + ')'}"></div>
 		<p class="name">{{ shortName(image.name) }}</p>
